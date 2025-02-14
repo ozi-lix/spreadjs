@@ -1,9 +1,10 @@
 # spreadjs
 Clone repository
 
-#code
+```
 npm i
-
 npm run start
+```
+> [!IMPORTANT]
+> For educational purposes only.
 
-For educational purposes only.
