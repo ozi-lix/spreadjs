@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>SpreadJS Designer</title>
+    <link href="../lib/spread/gc.spread.sheets.excel2013white.18.0.2.css" rel="stylesheet" type="text/css" />
+    <link href="../css/gc.spread.sheets.designer.18.0.2.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/gc.spread.sheets.designer.electron.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        html,
+        body {
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            height: 100%;
+        }
+
+        #gc-designer-container {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body unselectable="on" style="-moz-user-select: none; -webkit-user-select: none; user-select: none;">
+    <div id="gc-designer-container">
+    </div>
+
+    <!-- Libraries -->
+    <script src="../lib/spread/gc.spread.sheets.all.18.0.2.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.shapes.18.0.2.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.slicers.18.0.2.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.charts.18.0.2.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.datacharts.18.0.2.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.pivot.pivottables.18.0.2.min.js"></script>
+
+    <!-- The gc.spread.sheets.print.18.0.2.js must import before the gc.spread.sheets.pdf.18.0.2.js -->
+    <script src="../lib/spread/plugins/gc.spread.sheets.print.18.0.2.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.pdf.18.0.2.min.js"></script>
+	<script src="../lib/spread/plugins/gc.spread.calcengine.languagepackages.18.0.2.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.barcode.18.0.2.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.tablesheet.18.0.2.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.ganttsheet.18.0.2.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.formulapanel.18.0.2.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.report.reportsheet.18.0.2.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.io.18.0.2.min.js"></script>
+    <script src="../lib/spread/interop/gc.spread.excelio.18.0.2.min.js"></script>
+
+    <script src="../scripts/gc.spread.sheets.designer.resource.en.18.0.2.min.js"></script>
+    <script src="../scripts/gc.spread.sheets.designer.all.18.0.2.min.js"></script>
+    <script src="./scripts/gc.spread.sheets.designer.electron.en.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- disable IE compatible view -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="spreadjs culture" content="ko-kr" />
+    <title>스프레드시트 디자이너</title>
+
+    <!-- Libraries -->
+    <link href="../lib/spread/gc.spread.sheets.excel2013white.0.0.0.css" rel="stylesheet" type="text/css" />
+    <link href="../css/gc.spread.sheets.designer.0.0.0.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/gc.spread.sheets.designer.electron.css" rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+        html,
+        body {
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            height: 100%;
+        }
+
+        #gc-designer-container {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body unselectable="on" style="-moz-user-select: none; -webkit-user-select: none; user-select: none;">
+    <div id="gc-designer-container">
+    </div>
+
+    <!-- Libraries -->
+    <script src="../lib/spread/gc.spread.sheets.all.0.0.0.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.shapes.0.0.0.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.slicers.0.0.0.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.charts.0.0.0.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.datacharts.0.0.0.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.pivot.pivottables.0.0.0.min.js"></script>
+
+    <script src="../lib/spread/plugins/gc.spread.sheets.print.0.0.0.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.pdf.0.0.0.min.js"></script>
+	<script src="../lib/spread/plugins/gc.spread.calcengine.languagepackages.0.0.0.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.barcode.0.0.0.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.tablesheet.0.0.0.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.ganttsheet.0.0.0.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.formulapanel.0.0.0.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.report.reportsheet.0.0.0.min.js"></script>
+    <script src="../lib/spread/plugins/gc.spread.sheets.io.0.0.0.min.js"></script>
+    <script src="../lib/spread/interop/gc.spread.excelio.0.0.0.min.js"></script>
+    <script src="../lib/spread/resources/ko/gc.spread.sheets.resources.ko.0.0.0.min.js"></script>
+
+    <script src="../scripts/gc.spread.sheets.designer.resource.ko.0.0.0.min.js"></script>
+    <script src="../scripts/gc.spread.sheets.designer.all.0.0.0.min.js"></script>
+    <script src="./scripts/gc.spread.sheets.designer.electron.ko.js"></script>
+</body>
+
+</html>
