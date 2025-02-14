@@ -1,0 +1,19 @@
+{
+  "name": "spreadjs_designer",
+  "productName": "SpreadJS Designer",
+  "version": "18.0.2",
+  "description": "SpreadJS Designer",
+  "main": "main.min.js",
+  "author": "MESCIUS inc. <us.sales@mescius.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "homepage": "https://developer.mescius.com/spreadjs",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild"
+  },
+  "devDependencies": {
+    "electron": "^7.3.3",
+    "electron-rebuild": "^3.2.9"
+  }
+}
