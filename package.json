@@ -4,10 +4,10 @@
   "version": "18.0.2",
   "description": "SpreadJS Designer",
   "main": "main.min.js",
-  "author": "MESCIUS inc. <us.sales@mescius.com>",
+  "author": "",
   "license": "UNLICENSED",
   "private": true,
-  "homepage": "https://developer.mescius.com/spreadjs",
+  "homepage": "",
   "scripts": {
     "start": "electron .",
     "rebuild": "electron-rebuild"
